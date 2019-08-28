@@ -26,7 +26,7 @@ con.query(sqlSorgusu, function (err, results, fields) {
     for(var i = 0; i < results.length; i++){
       console.log(results[i]);
      istek(results[i].name);
-    sleep(0.3*1000);
+    sleep(0.5*1000);
        }
   });
 
@@ -39,7 +39,7 @@ else{
     dataArray = data.split("\r\n");
     for(let i = 0; i < dataArray.length-1; i++){
     istek(dataArray[i]);
-    sleep(0.3*1000);
+    sleep(0.5*1000);
     }
   })
   
