@@ -1,2 +1,2 @@
 # name_verify
-Output of the data in the name and surname file in csv format via the https://www.behindthename.com website as meaningful or meaningless, using node.js.
+Output meaningful or meaningless output of name data in the CSV file or MySQL database using node.js with data from the https://www.behindthename.com website.
