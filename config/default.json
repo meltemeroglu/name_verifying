@@ -1,0 +1,23 @@
+
+{
+  "NameVerifyConfig": {
+    "mySqlDbConfig": {
+      "host": "localhost",
+      "user": "root",
+      "password": "password",
+      "database": "nameverify_db"
+    },
+    "filePath": {
+      "path": "C:\\Users\\user\\Desktop\\",
+      "fileName":"verify.csv"
+    },
+    "URLs":{
+      "url":"http://www.behindthename.com/api/lookup.json?name=",
+      "key":"&key=me383449828"
+    },
+    "Options":{
+      "choosen":0,
+      "msg":"for mysql choosen=0 else 1"
+    }
+  }
+}
